@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" alt="This is Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2023</h1>
+        
+    </section>
+
+    <!-- blog page content -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="image/certificate.jpg" alt="certificate pic">
+                <h2>Our Certificate & Online Programs For 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, pariatur magni veniam officia in exercitationem reprehenderit fuga obcaecati. Magni amet voluptates tempore voluptate, harum voluptas laudantium fugiat alias quod sapiente, deleniti aliquid, doloribus minima. Vel!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat dolor adipisci a doloribus assumenda alias nesciunt necessitatibus hic ipsum? Reiciendis voluptates sapiente maxime ipsam alias suscipit iure, culpa non, rerum eaque, deleniti veritatis deserunt. Repellendus, odio eum non obcaecati magnam iure veritatis nam deleniti praesentium ex harum quasi incidunt quae, itaque porro nostrum distinctio culpa? Saepe fugit nemo aut eum cum cupiditate temporibus fugiat, excepturi quas consectetur pariatur illum. Corrupti.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptatum, totam consectetur impedit quibusdam minus officiis atque reiciendis ipsam esse, voluptas, magnam accusantium delectus sequi deserunt quis numquam explicabo placeat?</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis natus consequuntur dicta vero reprehenderit!</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ea consequuntur soluta? Odit quae adipisci itaque libero, labore placeat quos repellat a, reprehenderit totam tempore ratione minus laboriosam tenetur accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perferendis, est architecto dolorum suscipit accusantium voluptatum harum id! Quia architecto quibusdam expedita culpa illo eos fugiat quos ut molestias animi.</p>
+
+
+                <div class="comment-box">
+
+                    <h3>Leave a Comment</h3>
+
+                    <form action="" class="comment-form">
+                        <input type="text" name="" id="" placeholder="Enter Anme">
+                        <input type="email" name="" id="" placeholder="Enter Email">
+                        <textarea name="" id="" rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="h-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+                 
+            
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Data Science</span>
+                    <span>23</span>
+                </div>
+
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>27</span>
+                </div>
+
+                <div>
+                    <span>Business Administration</span>
+                    <span>21</span>
+                </div>
+
+
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+
+                <div>
+                    <span>Machine Learning</span>
+                    <span>42</span>
+                </div>
+
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+
+
+<!----------- Footer ------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, fugiat necessitatibus aut  <br>placeat assumenda quia quis ut iure! Debitis, perferendis!</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by irshAd</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------JavaScripy for Toggle Menu-------------->
+ <script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+ </script> 
+   
+</body>
+</html>
